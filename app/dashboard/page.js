@@ -1,8 +1,14 @@
+'use client'
 import FacultyCard from "@/components/FacultyCard";
+import { useKindeBrowserClient } from "@kinde-oss/kinde-auth-nextjs";
 
 export default function Dashboard() {
+      const { user } = useKindeBrowserClient();
+  
   return (
     <div className="min-h-screen bg-blue-100">
+      <h3 className="text-black text-center pt-2 text-xs sm:text-sm md:text-lg lg:text-xl">
+        Welcome {user?.given_name} to ESCT e-Library - Your Gateway to Limtless Learning!</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
         <FacultyCard title="Faculty of Management Sciences" route="/dashboard/faculty/management"/>
         <FacultyCard title="Faculty of Social Sciences" route="/dashboard/faculty/social" />
