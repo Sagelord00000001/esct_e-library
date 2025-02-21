@@ -16,7 +16,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold text-blue-700">Welcome to the Faculty of Management Sciences</h2>
       </div>
       <p className="text-slate-950 text-center">Explore a collection of books and resources available in each department </p>
-      <div className="grid grid-cols-2 gap-4 max-w-md mx-auto mt-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {departments.map((dept, index) => (
           <FacultyCard key={index} title={dept.name} route={dept.route} description={dept.description} />
         ))}
