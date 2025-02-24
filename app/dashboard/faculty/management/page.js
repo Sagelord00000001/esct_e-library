@@ -3,11 +3,11 @@ import FacultyCard from "@/components/FacultyCard"; // Ensure correct path
 
 export default function Page() {
   const departments = [
-    { name: "Accounting", route: "/dashboard/departments/accounting", description:'yggvjkctdxcghvgfxbgfc vh gf jhvhfcyvyhgvjh' },
-    { name: "Business Administration", route: "/dashboard/departments/business" },
-    { name: "Human Resource Management", route: "/dashboard/departments/hrm" },
-    { name: "Banking and Finance", route: "/dashboard/departments/banking" },
-    { name: "Marketing", route: "/dashboard/departments/marketing" },
+    { name: "Accounting", route: "https://drive.google.com/drive/folders/1WFAvTAkk4MKurX0z44VhTUwzVgDsaRkl", description:'Explore financial management, taxation, and auditing books.' },
+    { name: "Business Administration", route: "/dashboard/departments/business", description:'Find books on business strategies, management, and leadership.' },
+    { name: "Human Resource Management", route: "/dashboard/departments/hrm", description:'Learn about talent management, recruitment, and workplace culture.' },
+    { name: "Banking and Finance", route: "/dashboard/departments/banking",description:'Access books on financial markets, investments, and banking policies.' },
+    { name: "Marketing", route: "/dashboard/departments/marketing",description:'Discover books on branding, advertising, and consumer behavior.' },
   ];
 
   return (
