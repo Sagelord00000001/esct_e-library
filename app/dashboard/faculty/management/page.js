@@ -4,10 +4,10 @@ import FacultyCard from "@/components/FacultyCard"; // Ensure correct path
 export default function Page() {
   const departments = [
     { name: "Accounting", route: "https://drive.google.com/drive/folders/1WFAvTAkk4MKurX0z44VhTUwzVgDsaRkl", description:'Explore financial management, taxation, and auditing books.' },
-    { name: "Business Administration", route: "/dashboard/departments/business", description:'Find books on business strategies, management, and leadership.' },
-    { name: "Human Resource Management", route: "/dashboard/departments/hrm", description:'Learn about talent management, recruitment, and workplace culture.' },
-    { name: "Banking and Finance", route: "/dashboard/departments/banking",description:'Access books on financial markets, investments, and banking policies.' },
-    { name: "Marketing", route: "/dashboard/departments/marketing",description:'Discover books on branding, advertising, and consumer behavior.' },
+    { name: "Business Administration", route: "https://drive.google.com/drive/folders/1ADaBo2zHHN08Qr44s6g6e3mUxYe8-5m4", description:'Find books on business strategies, management, and leadership.' },
+    { name: "Human Resource Management", route: "https://drive.google.com/drive/folders/15EFIEYhAIWEFF3t2goFzUSqdh5lpX3U3", description:'Learn about talent management, recruitment, and workplace culture.' },
+    { name: "Banking and Finance", route: "https://drive.google.com/drive/folders/17w0nFY9hcBQJWqg3ZXQuSN_E5X9dplYW",description:'Access books on financial markets, investments, and banking policies.' },
+    { name: "Marketing", route: "https://drive.google.com/drive/folders/1oe7PzhdvFklEE_Livf9ajxuTrotH0P6A",description:'Discover books on branding, advertising, and consumer behavior.' },
   ];
 
   return (
