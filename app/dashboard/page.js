@@ -61,6 +61,7 @@ export default function Dashboard() {
         <FacultyCard title="Faculty of Social Sciences" route="/dashboard/faculty/social" />
         <FacultyCard title="Faculty of Pure and Applied Sciences" route="/dashboard/faculty/applied" />
         <FacultyCard title="Faculty of Communication and Media Studies" route="/dashboard/faculty/media" />
+        <FacultyCard title="Other Related Books" route="/dashboard/faculty/others" />
       </div>
 
       <div className="flex flex-col">

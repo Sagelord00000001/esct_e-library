@@ -3,8 +3,8 @@ import FacultyCard from "@/components/FacultyCard"; // Ensure correct path
 
 export default function Page() {
   const departments = [
-    { name: "Mass Communication", route: "/dashboard/departments/Mc", description:'Discover books on journalism, media studies, and digital communication.' },
-    { name: "Film and Theatre Arts", route: "/dashboard/departments/FT", description:'Find books on screenwriting, stage performance, and film production' },
+    { name: "Mass Communication", route: "https://drive.google.com/drive/folders/18ahoSYvNHRUl9_O1RN3UqvqfMW0D9-gl", description:'Discover books on journalism, media studies, and digital communication.' },
+    { name: "Film and Theatre Arts", route: "https://drive.google.com/drive/folders/14QkqptS9quGoFt455yYQQfyFOwHZMCgW", description:'Find books on screenwriting, stage performance, and film production' },
   ];
 
   return (
