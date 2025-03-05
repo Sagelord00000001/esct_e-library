@@ -4,11 +4,11 @@ import FacultyCard from "@/components/FacultyCard"; // Ensure correct path
 export default function Page() {
   const departments = [
     { name: "Computer Science", route: "https://drive.google.com/drive/folders/1uTxBTbikLElujxpNWpTtGUhFLEL4QC8q", description:'Explore programming, artificial intelligence, cybersecurity, and software development books.' },
-    { name: "Medical Labouratory Science", route: "https://drive.google.com/drive/folders/1gQdnneTwexR8bC8dMtcgA8MIrVZXrc-L",description:'Find books on clinical diagnostics, laboratory techniques, and medical research.' },
+    { name: "Medical Laboratory Science", route: "https://drive.google.com/drive/folders/1gQdnneTwexR8bC8dMtcgA8MIrVZXrc-L",description:'Find books on clinical diagnostics, laboratory techniques, and medical research.' },
     { name: "Microbiology", route: "https://drive.google.com/drive/folders/1gQdnneTwexR8bC8dMtcgA8MIrVZXrc-L", description:'Discover books on microbial genetics, immunology, and infectious diseases.'},
     { name: "Biochemistry", route: "https://drive.google.com/drive/folders/1gQdnneTwexR8bC8dMtcgA8MIrVZXrc-L", description:'Explore books on molecular biology, enzymology, and biochemical pathways.' },
-    { name: "Biomedical Science", route: "https://drive.google.com/drive/folders/1gQdnneTwexR8bC8dMtcgA8MIrVZXrc-L", description:'Access books on property valuation, real estate investment, and urban planning.' },    
-    { name: "Estate Management", route: "https://drive.google.com/drive/folders/1i8syRiuiTOSuBArUJ0JbSIosfXD36DZN", description:'Learn about human physiology, medical biotechnology, and disease pathology.' },
+    { name: "Biomedical Science", route: "https://drive.google.com/drive/folders/1gQdnneTwexR8bC8dMtcgA8MIrVZXrc-L", description:'Learn about human physiology, medical biotechnology, and disease pathology' },    
+    { name: "Estate Management", route: "https://drive.google.com/drive/folders/1i8syRiuiTOSuBArUJ0JbSIosfXD36DZN", description:'Access books on property valuation, real estate investment, and urban planning.' },
   ];
 
   return (
